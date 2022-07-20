@@ -1,0 +1,100 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-size: 16px;
+  }
+  
+  body{
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+      'Helvetica Neue', Arial, sans-serif;
+  }
+
+  main{
+    text-align:center;
+    margin: 2rem 5px;
+    background-color:#eee;
+    color:#333;
+    padding:10px;
+  }
+  
+  #title{
+    font-size: 2.5rem;
+    margin-top: 2rem;
+  }
+
+  #title + p{
+    margin: 1.8rem 0;
+    font-size: 1.2rem;
+  }
+
+  figure{
+    background:white;
+    padding: .7rem;
+  }
+  
+  #image{
+    display:block;
+    margin: 0 auto;
+    max-width:100%;
+  }
+  
+
+  #img-caption{
+    display:block;
+    height:auto;
+    margin: 5px;
+    margin-top:1rem;
+    font-size: 1.1rem;
+  }
+  
+
+  section{
+    padding:0 100px;
+    line-height: 1.5rem;
+    margin: 0 auto;
+    max-width: 900px;
+  }
+
+  h3{
+    font-size: 1.5rem;
+    display: block;
+    margin:4rem auto;
+  }
+
+  ul{
+    line-height: 3.5rem;
+  }
+
+  ul > li{
+    margin: 16px 0;
+    text-align: left;
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+
+  .quote{
+    text-align: left;
+    font-style: italic;
+    margin:2rem 0;
+  }
+
+  .quote * {
+    font-size: 1.15rem;
+  }
+
+  blockquote{
+    margin:1.5rem auto;
+  }
+  
+
+
+  footer{
+    padding:1rem 1rem;
+  }
+
+  a{
+    font-size: inherit;
+    color:rgb(71, 124, 167);
+  }
